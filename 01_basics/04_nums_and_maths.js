@@ -173,3 +173,8 @@ Step-5 :=> Then in Last it returns the final value to the console.
 
 
 */
+
+const minOne = 10;
+const maxOne = 30;
+
+console.log(Math.floor(Math.random() * (maxOne - minOne +1 )) + minOne);
